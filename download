@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Trained artifacts (regenerate with `python -m credit_risk.train`)
+models/*
+!models/.gitkeep
+
+# Generated reports (keep the folder, ignore contents except figures used in README)
+reports/*
+!reports/.gitkeep
+!reports/confusion_matrix.png
+!reports/feature_importance.png
+!reports/metrics.json
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
